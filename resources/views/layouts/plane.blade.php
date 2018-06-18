@@ -37,4 +37,6 @@
     <body ondragstart="return false;" ondrop="return false;" >
 	 @yield('body')
     </body>
+    
+       @stack('scripts')
 </html>
