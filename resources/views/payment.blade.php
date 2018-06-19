@@ -19,7 +19,7 @@
     
     // Make sure the endpoint and path match the one you specified on Server side SDK
     BizApp.login({
-      url: "https://mybizapp.com:3000/api/login"
+      url: "https://mybizapp.com/api/login"
     }, function(error, userData) {
       if (userData.name) {
         $("#result").text("Logged in!");
@@ -34,7 +34,7 @@
 <script>
   function pay() {
     var options = {
-      address: "TGNy3ZbSfTB5aFKZdEidXC9U4FXPJxeQsM",
+      address: "TAoqY951ZKg5M7UZHEomUGQrbcYM4u9FiN",
       amount: 100000000, // 1 TRVC
       message: "Payment for BizApp",
       identifier: "446f7261"
